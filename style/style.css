@@ -11,7 +11,6 @@
 }
 
 /*Global*/
-
 body
 {
     height: 100vh;
@@ -42,7 +41,7 @@ body
     right: 1%;
 }
 
-/*Home*/
+/*Inicio*/
 
 .clasificacion-imagen
 {
@@ -62,5 +61,31 @@ body
 .productosImg:hover
 {
     scale: 1.1;
+}
+
+/* Quien soy */
+
+
+.quienSoy__fotoPerfil img
+{
+    width: 80%;
+}
+
+.quienSoy
+{
+    display: flex;
+    text-align: center;
+    padding: 5%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+@media (max-width: 600px) {
+    .quienSoy
+    {
+        flex-direction: column;
+    } 
 }
 
